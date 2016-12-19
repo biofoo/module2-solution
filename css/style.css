@@ -27,41 +27,29 @@ p {
 section > .panel {
   margin: 5px;
   background-color: grey;
-  border: 2px solid black;
+  border: 1px solid black;
 }
-.title-1 {
+
+.title-1, .title-2, .title-3 {
   font-size: 125%;
   text-align: center;
-  background-color: #FFCC55;
   float: right;
-  margin-top: -2px;
-  margin-right: -2px;
-  border: 2px solid black;
+  margin-top: -1px;
+  margin-right: -1px;
+  border: 1px solid black;
   width: 120px;
+}
+
+.title-1 {
+    background-color: #FFCC55;
 }
 
 .title-2 {
-  font-size: 125%;
-  text-align: center;
   background-color: #A52A2A;
-  float: right;
-  clear: left;
-  margin-top: -2px;
-  margin-right: -2px;
-  border: 2px solid black;
-  width: 120px;
 }
 
 .title-3 {
-  font-size: 125%;
-  text-align: center;
   background-color: green;
-  float: right;
-  clear: left;
-  margin-top: -2px;
-  margin-right: -2px;
-  border: 2px solid black;
-  width: 120px;
 }
 
 /********** Large devices only **********/
